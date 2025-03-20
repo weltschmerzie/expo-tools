@@ -1,6 +1,6 @@
 {
   "name": "expo-tools",
-  "displayName": "Expo Tools",
+  "displayName": "Expo Tools For VSCode",
   "description": "Tools for Expo Go projects",
   "version": "0.0.1",
   "publisher": "dunningkrueg",

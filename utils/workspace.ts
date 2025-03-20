@@ -4,7 +4,7 @@ import * as path from 'path';
 
 export async function createWorkspaceFolder(appName: string): Promise<string | undefined> {
     // Get the workspace folder path
-    let workspaceFolders = vscode.workspace.workspaceFolders;
+    const workspaceFolders = vscode.workspace.workspaceFolders;
     if (!workspaceFolders) {
         vscode.window.showErrorMessage('No workspace is open. Please open a workspace first.');
         return undefined;
@@ -41,4 +41,12 @@ export async function createWorkspaceFolder(appName: string): Promise<string | u
         vscode.window.showErrorMessage(`Failed to create directory: ${error instanceof Error ? error.message : String(error)}`);
         return undefined;
     }
+}
+
+export function getWorkspaceFolders(): readonly vscode.WorkspaceFolder[] {
+    const workspaceFolders = vscode.workspace.workspaceFolders;
+    if (!workspaceFolders) {
+        throw new Error('No workspace folder found');
+    }
+    return workspaceFolders;
 } 
