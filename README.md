@@ -20,12 +20,28 @@ This extension is currently under active development. Features and functionality
 
 ## Installation
 
-Since this extension is in development, you'll need to install it locally:
+You can install this extension in several ways:
 
-1. Clone this repository
-2. Open the project in VSCode
-3. Press F5 to start debugging
-4. A new VSCode window will open with the extension loaded
+1. **Via VSCode Marketplace**:
+   - Open VSCode
+   - Open Extension Marketplace (Ctrl+Shift+X)
+   - Search for "Expo Tools for VSCode"
+   - Click Install
+
+2. **Via Direct Link**:
+   - Visit [Expo Tools on VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+   - Click Install
+
+3. **Via Command Palette**:
+   - Press Ctrl+P to open Quick Open
+   - Type `ext install dunningkrueg.expo-tools`
+   - Press Enter
+
+4. **For Development**:
+   - Clone this repository
+   - Open the project in VSCode
+   - Press F5 to start debugging
+   - A new VSCode window will open with the extension loaded
 
 ## Usage
 
@@ -75,7 +91,6 @@ expo-tools/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details. This license provides more comprehensive protection and is suitable for both commercial and non-commercial use.
 
