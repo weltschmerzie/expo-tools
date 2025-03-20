@@ -1,0 +1,41 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# TypeScript files
+*.ts text
+*.tsx text
+
+# JSON files
+*.json text
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Configs
+*.yml text
+*.yaml text
+*.xml text
+*.ini text
+*.cfg text
+
+# Lock files
+package-lock.json text
+yarn.lock text
+pnpm-lock.yaml text
+
+# Exclude files from exporting
+.gitattributes export-ignore
+.gitignore export-ignore
+.vscodeignore export-ignore 

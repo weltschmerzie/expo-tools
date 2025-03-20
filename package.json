@@ -1,0 +1,57 @@
+{
+  "name": "expo-tools",
+  "displayName": "Expo Tools",
+  "description": "Tools for Expo Go projects",
+  "version": "0.0.1-b",
+  "publisher": "dunningkrueg",
+  "private": false,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dunningkrueg/expo-tools"
+  },
+  "author": {
+    "name": "Dunning Krueg",
+    "email": "dunningkrueg@gmail.com"
+  },
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:expo-tools.createNewApp"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "expo-tools.createNewApp",
+        "title": "Create New Expo App"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint . --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-fetch": "^3.3.2",
+    "simple-git": "^3.21.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  }
+} 
