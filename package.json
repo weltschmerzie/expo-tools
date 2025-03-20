@@ -2,7 +2,7 @@
   "name": "expo-tools",
   "displayName": "Expo Tools",
   "description": "Tools for Expo Go projects",
-  "version": "0.0.1-b",
+  "version": "0.0.1",
   "publisher": "dunningkrueg",
   "private": false,
   "license": "Apache-2.0",
