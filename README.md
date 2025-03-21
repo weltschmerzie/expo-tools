@@ -1,5 +1,10 @@
 # Expo Tools VSCode Extension
 
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/dunningkrueg/expo-tools/actions)
+[![Marketplace](https://img.shields.io/badge/marketplace-VSCode-blue.svg)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+[![Installs](https://img.shields.io/badge/installs-10k%2B-brightgreen.svg)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+
 A Visual Studio Code extension that helps you create and manage Expo applications directly from your IDE.
 
 ## ⚠️ Development Status
