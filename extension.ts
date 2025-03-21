@@ -1,12 +1,19 @@
 import * as vscode from 'vscode';
 import { createNewApp } from './commands/createNewApp';
+import { runDoctor } from './commands/runDoctor';
 
 export function activate(context: vscode.ExtensionContext) {
-    const disposable = vscode.commands.registerCommand('expo-tools.createNewApp', () => {
+    
+    const createNewAppCommand = vscode.commands.registerCommand('expo-tools.createNewApp', () => {
         createNewApp();
     });
 
-    context.subscriptions.push(disposable);
+    
+    const runDoctorCommand = vscode.commands.registerCommand('expo-tools.runDoctor', () => {
+        runDoctor();
+    });
+
+    context.subscriptions.push(createNewAppCommand, runDoctorCommand);
 }
 
 export function deactivate() {} 

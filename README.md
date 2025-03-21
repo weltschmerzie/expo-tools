@@ -11,6 +11,7 @@ This extension is currently under active development. Features and functionality
 - Choose between creating in new folder or current workspace
 - Automatic dependency installation
 - Project name customization
+- Run Expo Doctor to diagnose project issues
 
 ### Planned Features
 - Expo project management
@@ -45,12 +46,19 @@ You can install this extension in several ways:
 
 ## Usage
 
+### Creating a New App
 1. Open the Command Palette (Ctrl+Shift+P)
 2. Type "Create New Expo App"
 3. Enter your application name
 4. Choose where to create the app (new folder or current workspace)
 5. Wait for the template to be downloaded and customized
 6. Choose whether to install dependencies automatically
+
+### Running Expo Doctor
+1. Open your Expo project in VSCode
+2. Open the Command Palette (Ctrl+Shift+P)
+3. Type "Run Expo Doctor"
+4. View the diagnostic results in the output panel
 
 ## Requirements
 

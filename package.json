@@ -2,7 +2,7 @@
   "name": "expo-tools",
   "displayName": "Expo Tools For VSCode",
   "description": "Tools for Expo Go projects",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "dunningkrueg",
   "private": false,
   "license": "Apache-2.0",
@@ -22,7 +22,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:expo-tools.createNewApp"
+    "onCommand:expo-tools.createNewApp",
+    "onCommand:expo-tools.runDoctor"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -30,6 +31,10 @@
       {
         "command": "expo-tools.createNewApp",
         "title": "Create New Expo App"
+      },
+      {
+        "command": "expo-tools.runDoctor",
+        "title": "Run Expo Doctor"
       }
     ]
   },
