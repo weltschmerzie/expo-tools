@@ -1,6 +1,7 @@
 import * as vscode from 'vscode';
 import { createNewApp } from './commands/createNewApp';
 import { runDoctor } from './commands/runDoctor';
+import { buildAndDeploy } from './commands/buildAndDeploy';
 
 export function activate(context: vscode.ExtensionContext) {
     
@@ -13,7 +14,11 @@ export function activate(context: vscode.ExtensionContext) {
         runDoctor();
     });
 
-    context.subscriptions.push(createNewAppCommand, runDoctorCommand);
+    const buildAndDeployCommand = vscode.commands.registerCommand('expo-tools.buildAndDeploy', () => {
+        buildAndDeploy();
+    });
+
+    context.subscriptions.push(createNewAppCommand, runDoctorCommand, buildAndDeployCommand);
 }
 
 export function deactivate() {} 

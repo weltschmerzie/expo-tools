@@ -25,10 +25,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated user interface for app creation
 - Enhanced README documentation
 
+## [1.2.0] - 2025-03-21
+
+### Added
+- Build and Deploy command for Expo applications
+- Support for iOS, Android, and Web builds
+- Multiple build types (Development, Preview, Production)
+- Web deployment options (Expo Hosting, GitHub Pages, Netlify, Vercel)
+- Detailed build and deployment output in dedicated channel
+
 ## [Unreleased]
 
 ### Planned
 - Expo project management
 - Development server controls
-- Build and deployment tools
 - Project templates selection

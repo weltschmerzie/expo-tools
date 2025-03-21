@@ -12,11 +12,11 @@ This extension is currently under active development. Features and functionality
 - Automatic dependency installation
 - Project name customization
 - Run Expo Doctor to diagnose project issues
+- Build and Deploy Expo apps to iOS, Android, and Web platforms
 
 ### Planned Features
 - Expo project management
 - Development server controls
-- Build and deployment tools
 - Project templates selection
 
 ## Installation
@@ -59,6 +59,20 @@ You can install this extension in several ways:
 2. Open the Command Palette (Ctrl+Shift+P)
 3. Type "Run Expo Doctor"
 4. View the diagnostic results in the output panel
+
+### Building and Deploying
+1. Open your Expo project in VSCode
+2. Open the Command Palette (Ctrl+Shift+P)
+3. Type "Build and Deploy Expo App"
+4. Select the platform (iOS, Android, or Web)
+5. Choose the build type (Development, Preview, or Production)
+6. For iOS/Android, select additional build options
+7. Wait for the build to complete
+8. For web builds, you can optionally deploy to:
+   - Expo Hosting
+   - GitHub Pages
+   - Netlify
+   - Vercel
 
 ## Requirements
 
