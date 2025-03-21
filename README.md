@@ -1,11 +1,11 @@
-# Expo Tools VSCode Extension
-
 <div align="center">
+  <img src="images/logo.png" alt="Expo Tools Logo" width="100" height="100" />
   
-  [![Version](https://img.shields.io/badge/version-1.2.0-blue.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
-  [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/dunningkrueg/expo-tools/actions)
-  [![Marketplace](https://img.shields.io/badge/marketplace-VSCode-blue.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+  # Expo Tools VSCode Extension
   
+  [![Version](https://img.shields.io/badge/version-1.2.0-4299E1.svg?logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
+  [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?logo=github-actions&logoColor=white)](https://github.com/dunningkrueg/expo-tools/actions)
+  [![Marketplace](https://img.shields.io/badge/marketplace-VSCode-blue.svg?logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=dunningkrueg.expo-tools)
 </div>
 
 A Visual Studio Code extension that helps you create and manage Expo applications directly from your IDE.
