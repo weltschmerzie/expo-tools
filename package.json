@@ -11,8 +11,7 @@
     "url": "https://github.com/dunningkrueg/expo-tools"
   },
   "author": {
-    "name": "Dunning Krueg",
-    "email": "dunningkrueg@gmail.com"
+    "name": "dunningkrueg",
   },
   "icon": "images/logo.png",
   "engines": {
