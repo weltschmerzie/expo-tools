@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/logo.png" alt="Expo Tools Logo" width="100" height="100" />
+  <img src="images/logo.png" alt="Expo Tools Logo" width="256" height="256" />
   
   # Expo Tools VSCode Extension
   
