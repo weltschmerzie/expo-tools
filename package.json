@@ -59,7 +59,7 @@
     "@types/node": "22.x",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
-    "eslint": "^8.54.0",
+    "eslint": "^9.27.0",
     "typescript": "^5.8.3"
   }
 } 
